@@ -32,6 +32,7 @@ public class Rectangulo{
 
     public String toString(){
         String estado = "Base: " + base + "\n" + "Altura: " + altura;
+        return estado;
     }
 
 }
