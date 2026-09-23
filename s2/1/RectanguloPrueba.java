@@ -13,6 +13,9 @@ public class RectanguloPrueba{
         double area;
         area = rect_1.obtenArea();
         System.out.println("El area es " + area);
+
+        rect_2.obtenPerimetro();
+        area
     }
 
 }
