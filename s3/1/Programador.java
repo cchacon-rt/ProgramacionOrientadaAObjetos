@@ -28,6 +28,8 @@ public class Programador extends Administrativo {
 
     public String toString(){
         String estado = super.toString() + "\nProyectos actuales: " + proyectosActuales + ", proyectos finalizados: " + proyectosFinalizados;
+
+        return estado;
     }
 
 }
