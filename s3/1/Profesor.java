@@ -11,6 +11,7 @@ public class Profesor extends Persona {
         super(nombre, aPaterno, aMaterno, diaNac, mesNac, anioNac); //invocacion al constructor de la clase padre
         this.numEconomico=numEconomico;
         this.anioContratacion=anioContratacion;
+        System.out.println("Construyendo al profe");
     }
 
 
