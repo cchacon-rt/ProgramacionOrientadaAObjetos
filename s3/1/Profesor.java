@@ -11,7 +11,7 @@ public class Profesor extends Persona {
         super(nombre, aPaterno, aMaterno, diaNac, mesNac, anioNac); //invocacion al constructor de la clase padre
         this.numEconomico=numEconomico;
         this.anioContratacion=anioContratacion;
-        System.out.println("Construyendo al profe");
+        System.out.println("\n___________\nConstruyendo al profe\n___________\n");
     }
 
 
@@ -21,7 +21,7 @@ public class Profesor extends Persona {
     }
 
     public String toString(){
-        String estado = super.toString() + ", num Eco: " + numEconomico + ", anio Contratacion: " + anioContratacion;
+        String estado = super.toString() + ", num Eco: " + numEconomico + ", Contratado desde: " + anioContratacion + "\n";
 
         return estado;
     }

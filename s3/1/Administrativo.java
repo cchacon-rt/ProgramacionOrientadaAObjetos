@@ -11,7 +11,7 @@ public class Administrativo extends Persona {
         super(nombre, aPaterno, aMaterno, diaNac, mesNac, anioNac);
         this.numEmpleado=numEmpleado;
         this.anioContratacion=anioContratacion;
-        System.out.println("Construyendo la parte admon");
+        System.out.println("\n___________\nConstruyendo la parte admon\n___________\n");
     }
 
 
@@ -23,11 +23,11 @@ public class Administrativo extends Persona {
     public void calculaValeDespensa(){
         double vale;
         vale = (ANIO_ACT - anioContratacion) * 350;
-        System.out.println("Tu vale de despensa es de: $" + vale);
+        System.out.println("\nTu vale de despensa es de: $" + vale);
     }
 
     public String toString(){
-        String estado = super.toString() + ", num Empleado: " + numEmpleado + "empleado Desde " + anioContratacion;
+        String estado = super.toString() + ", num Empleado: " + numEmpleado + "\nempleado Desde " + anioContratacion;
 
         return estado;
     }

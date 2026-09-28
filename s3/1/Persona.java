@@ -16,7 +16,7 @@ public class Persona{
     public Persona (){}
 
     public Persona (String nombre, String aPaterno, String aMaterno, int diaNac, int mesNac, int anioNac){
-        System.out.println("Construyendo la parte persona");
+        System.out.println("\n___________\nConstruyendo la parte persona\n___________\n");
         this.nombre=nombre;
         this.aPaterno=aPaterno;
         this.aMaterno=aMaterno;
@@ -32,7 +32,7 @@ public class Persona{
 
     public String toString(){
         calcularEdad();
-        String estado = "Nombre Completo: " + nombre + aPaterno + aMaterno + ".\n edad: " + edad + "\n Fecha nacimiento: " + diaNac + " / " + mesNac + " / " + anioNac;
+        String estado = "Nombre Completo: " + nombre + " " + aPaterno + " " + aMaterno + ".\n edad: " + edad + "\n Fecha nacimiento: " + diaNac + " / " + mesNac + " / " + anioNac;
         return estado;  
     }
 
