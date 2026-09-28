@@ -15,16 +15,14 @@ public class Persona{
     //constructores
     public Persona (){}
 
-    public Persona (String nombre, String aPaterno, String aMaterno, int edad, int diaNac, int mesNac, int anioNac){
+    public Persona (String nombre, String aPaterno, String aMaterno, int diaNac, int mesNac, int anioNac){
         System.out.println("Construyendo la parte persona");
         this.nombre=nombre;
         this.aPaterno=aPaterno;
         this.aMaterno=aMaterno;
-        this.edad=edad;
         this.diaNac=diaNac;
         this.mesNac=mesNac;
         this.anioNac=anioNac;
-
     }
 
     //métodos
