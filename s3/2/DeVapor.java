@@ -1,5 +1,3 @@
-package s3.2;
-
 public class DeVapor extends Barco {
     public DeVapor(){
         System.out.println("Se crea la parte de un barco de Vapor.");
@@ -10,6 +8,6 @@ public class DeVapor extends Barco {
     }
 
     public void metodoDeVapor(){
-        System.out.println("Ejecutando un metodo desde la clase de Vapos.");
+        System.out.println("Ejecutando un metodo desde la clase de Vapor.");
     }
 }

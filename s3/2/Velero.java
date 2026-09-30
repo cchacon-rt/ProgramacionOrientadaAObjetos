@@ -9,6 +9,6 @@ public class Velero extends Barco{
     }
 
     public void metodoDeVelero(){
-        System.out.prinln("Ejecutando un método desde la clase Velero.");
+        System.out.println("Ejecutando un método desde la clase Velero.");
     }
 }

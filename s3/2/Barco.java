@@ -4,7 +4,7 @@ public class Barco {
         System.out.println("Se crea la clase barco");
     }
 
-    //métodos de barca
+    //métodos de barco
     public void alarma(){
         System.out.println("\t SOS desde un Barco");
     }
