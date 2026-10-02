@@ -4,10 +4,15 @@ public class Profesor extends Personas {
 
     //atributos
     public String numEconomico;
+    Ueas [] ueasIns;
+    int cont;
 
 
     //constructores
-    public Profesor(){}
+    public Profesor(){
+        ueasIns = new Ueas[3];
+        cont=0;
+    }
 
     public Profesor(String nombre, String aPaterno, String aMaterno, String numEconomico){
         super(nombre, aPaterno, aMaterno);
@@ -18,8 +23,9 @@ public class Profesor extends Personas {
 
 
     //métodos
-    public void asignarUEA(){
-
+    public void asignarUEA(Ueas uea){
+        ueasIns[cont]=uea;
+        cont++;
     }
 
     public void imprimirUEAasignada(){
