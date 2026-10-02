@@ -1,4 +1,4 @@
-public class Persona {
+public class Personas {
 
     //atributos
     public String nombre;
@@ -6,9 +6,9 @@ public class Persona {
     public String aMaterno;
 
     //constructores
-    public Persona (){}
-    
-    public Persona (String nombre, String aPaterno, String aMaterno){
+    public Personas (){}
+
+    public Personas (String nombre, String aPaterno, String aMaterno){
         System.out.println("Persona creada.\n");
         this.nombre=nombre;
         this.aPaterno=aPaterno;

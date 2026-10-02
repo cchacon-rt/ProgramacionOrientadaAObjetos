@@ -1,4 +1,4 @@
-public class Profesor extends Persona {
+public class Profesor extends Personas {
    public static final int MAX_UEAS=3;
 
 
