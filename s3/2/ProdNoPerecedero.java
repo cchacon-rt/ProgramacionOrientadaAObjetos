@@ -1,3 +1,3 @@
-public class prodNoPerecedero {
+public class prodNoPerecedero extends Producto {
     
 }
