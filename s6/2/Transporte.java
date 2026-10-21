@@ -5,4 +5,6 @@ public interface Transporte {
     //metodos abstractos
     public String frenar (int valor);
     public void acelerar (int valor);
+
+    
 }
